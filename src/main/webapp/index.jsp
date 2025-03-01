@@ -11,7 +11,7 @@
     <style>
         /* Body background */
         body {
-            background: url(img/index.jpg);
+            background-color: lightblue;
             background-repeat: no-repeat;
             background-size: cover;
             height: 100vh;

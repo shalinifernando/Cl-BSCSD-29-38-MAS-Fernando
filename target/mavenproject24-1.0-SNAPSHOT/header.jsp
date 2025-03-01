@@ -69,7 +69,7 @@
     <a href="addUser.jsp">New Customer Booking</a>
     <a href="#about">Calculate Bill</a>
      <a href="#about">Car Info</a>
-      <a href="#about">Driver Info</a>
+      <a href="user-form.jsp">Driver Info</a>
       <a href="#about">system usage guidelines</a>
        <a href="logout.jsp">Logout</a>
 
