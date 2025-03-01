@@ -6,75 +6,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Header</title>
     <style>
-        .header {
-  overflow: hidden;
-  background-color: #f1f1f1;
-  padding: 20px 10px;
+body {
+  font-family: Helvetica;
+  margin: 0;
 }
-
-/* Style the header links */
-.header a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 12px;
+a {
   text-decoration: none;
-  font-size: 18px;
-  line-height: 25px;
-  border-radius: 4px;
+  color: #000;
+}
+.site-header { 
+  border-bottom: 1px solid #ccc;
+  padding: .5em 1em;
+  display: flex;
+  justify-content: space-between;
 }
 
-/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
-.header a.logo {
-  font-size: 25px;
-  font-weight: bold;
+.site-identity h1 {
+  font-size: 1.5em;
+  margin: .6em 0;
+  display: inline-block;
 }
 
-/* Change the background color on mouse-over */
-.header a:hover {
-  background-color: #ddd;
-  color: black;
+
+.site-navigation ul, 
+.site-navigation li {
+  margin: 0; 
+  padding: 0;
 }
 
-/* Style the active/current link*/
-.header a.active {
-  background-color: dodgerblue;
-  color: white;
-}
-
-/* Float the link section to the right */
-.header-right {
-  float: right;
-}
-
-/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-@media screen and (max-width: 500px) {
-  .header a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .header-right {
-    float: none;
-  }
+.site-navigation li {
+  display: inline-block;
+  margin: 1.4em 1em 1em 1em;
 }
     </style>
 </head>
 <body>
 
- <div class="header">
-  <a href="#default" class="logo">CompanyLogo</a>
-  <div class="header-right">
-    <a class="active" href="dashboard.jsp">Dashboard</a>
-    <a href="addUser.jsp">New Customer Booking</a>
-    <a href="#about">Calculate Bill</a>
-     <a href="#about">Car Info</a>
-      <a href="user-form.jsp">Driver Info</a>
-      <a href="#about">system usage guidelines</a>
-       <a href="logout.jsp">Logout</a>
-
-      
-  </div>
-</div>
+ <header class="site-header">
+  <div class="site-identity">
+    <h4><a href="dashboard.jsp">"The Epitome of Class on Wheels"</a></h4>
+   
+  </div>  
+  <nav class="site-navigation">
+    <ul class="nav">
+          <li>
+                                <a id="catalog" href="dashboard.jsp" class="tab__link">Dashboard</a>
+                            </li>
+       <li>
+                                <a id="catalog" href="booking.jsp" class="tab__link">Add New Customer</a>
+                            </li>
+                            <li>
+                                <a href="booking.jsp" id="pricing" class="tab__link">Display Booking Details</a>
+                            </li>
+                            <li>
+                                <a href="bill.jsp" id="pricing" class="tab__link">Calculate Bill</a>
+                            </li>
+                            <li>
+                                <a href="car_manager.jsp" id="pricing" class="tab__link">Car Info</a>
+                            </li>
+                             <li>
+                                <a href="user-list.jsp" id="pricing" class="tab__link">Driver Info</a>
+                            </li>
+                            <li>
+                                <a href="index.jsp" id="pricing" class="tab__link">LogOut</a>
+                            </li>
+    </ul>
+  </nav>
+</header>
 </body>
 </html>
