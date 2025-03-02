@@ -18,7 +18,7 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #e6f7ff; /* Lighter blue background for the body */
+            background-color: whitesmoke;
             margin: 0;
             padding: 0;
             color: #333;
@@ -65,7 +65,8 @@
             padding: 10px;
             font-size: 1rem;
             color: white;
-            background-color: #007BFF;
+            background-color: #28a745;
+
             border: none;
             border-radius: 4px;
             cursor: pointer;
@@ -92,6 +93,9 @@
         }
     </style>
 </head>
+<header>
+       <jsp:include page="header.jsp"/>
+    </header>
 <body>
     <div class="container">
         <h1>${user == null ? "Create New User" : "Edit User"}</h1>
@@ -109,5 +113,8 @@
             <a href="list">Back to User List</a>
         </div>
     </div>
+        <footer>
+       <jsp:include page="footer.jsp"/>
+    </footer>
 </body>
 </html>

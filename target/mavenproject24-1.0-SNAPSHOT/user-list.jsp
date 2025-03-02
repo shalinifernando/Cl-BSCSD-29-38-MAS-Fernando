@@ -17,7 +17,7 @@
     <style>
         body {
             font-family: 'Arial', sans-serif;
-            background-color: #e6f7ff; /* Lighter blue background for the body */
+            background-color: whitesmoke;
             margin: 0;
             padding: 0;
             color: #333;
@@ -33,7 +33,8 @@
         a {
             text-decoration: none;
             color: lightblue;
-            background-color: lightblue; /* Blue color for links */
+            background-color: whitesmoke;
+
             padding: 8px 16px;
             border-radius: 5px;
             transition: background-color 0.3s;
@@ -114,6 +115,10 @@
 
     </style>
 </head>
+<!-- Header -->
+    <header>
+       <jsp:include page="header.jsp"/>
+    </header>
 <body>
 
     <div class="container">
@@ -144,7 +149,9 @@
             </tbody>
         </table>
     </div>
-
+<footer>
+       <jsp:include page="footer.jsp"/>
+    </footer>
 </body>
 </html>
 

@@ -38,71 +38,94 @@
 <head>
     <title>Customer Booking</title>
     <style>
+        style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
-            margin: 20px;
-            padding: 0;
-        }
-        .container {
-            width: 20%;
-            margin: auto;
-            background: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
             padding: 20px;
-            box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
-            border-radius: 8px;
         }
+
         h2 {
             text-align: center;
             color: #333;
         }
+
         form {
-            display: flex;
-            flex-direction: column;
-             width: 50%;
-             margin-left: auto;
-             margin-right: auto;
+              background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 800px;
+           margin-left: auto;
+            margin-right: auto;
         }
-        label {
-            font-weight: bold;
-            margin-top: 10px;
-        }
-        input, textarea {
-            padding: 8px;
-            margin-top: 5px;
+
+        input[type="text"],
+        input[type="number"],
+        input[type="datetime-local"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 8px 0;
             border: 1px solid #ccc;
             border-radius: 5px;
         }
-        input[type="submit"] {
-            background-color: lavender;
-            color: white;
-            border: none;
-            padding: 10px;
-            margin-top: 15px;
-            cursor: pointer;
-            font-size: 16px;
+
+        textarea {
+            height: 80px;
+            resize: none;
         }
+
+        input[type="submit"] {
+            background-color: #28a745;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+
         input[type="submit"]:hover {
             background-color: #218838;
         }
-        table {
-            width: 50%;
+
+        .table-container {
+            display: flex;
+            justify-content: center;
+            width: 100%;
             margin-top: 20px;
-            border-collapse: collapse;
-             margin-left: auto;
-             margin-right: auto;
         }
-        table, th, td {
+
+        table {
+            width: 90%;
+            max-width: 800px;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+              margin-left: auto;
+            margin-right: auto;
+        }
+
+        th, td {
+            padding: 12px;
             border: 1px solid #ddd;
         }
-        th, td {
-            padding: 10px;
-            text-align: left;
-        }
+
         th {
-            background-color: lightblue;
+            background-color: #007bff;
             color: white;
         }
+
         tr:nth-child(even) {
             background-color: #f2f2f2;
         }

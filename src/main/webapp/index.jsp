@@ -11,7 +11,7 @@
     <style>
         /* Body background */
         body {
-            background-color: lightblue;
+            background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);;
             background-repeat: no-repeat;
             background-size: cover;
             height: 100vh;

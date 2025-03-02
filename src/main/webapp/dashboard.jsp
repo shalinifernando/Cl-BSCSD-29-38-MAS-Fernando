@@ -177,7 +177,7 @@ p {
 
 .hero {
   position: relative;
-  background: url(img/dash.jpg) no-repeat center center fixed;
+ background-image: linear-gradient(120deg, #a6c0fe 0%, #f68084 100%);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;

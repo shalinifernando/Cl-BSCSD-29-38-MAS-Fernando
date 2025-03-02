@@ -18,7 +18,89 @@
 <html>
 <head>
     <title>Car Manager</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 20px;
+            background-color: #f4f4fred;
+            
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        form {
+            background: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 800px;
+           margin-left: auto;
+            margin-right: auto;
+            
+        }
+
+        input[type="text"],
+        input[type="number"] {
+            width: 100%;
+            padding: 8px;
+            margin: 8px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        input[type="submit"] {
+            background-color: #28a745;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #218838;
+        }
+
+        table {
+            width: 50%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-left: auto;
+  margin-right: auto;
+        }
+
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .footer{
+            position: fixed;
+  left: 0;
+  bottom: 0;
+        }
+    </style>
 </head>
+ <header>
+       <jsp:include page="header.jsp"/>
+    </header>
 <body>
     <h2>Add a New Car</h2>
     <form method="post">
@@ -45,5 +127,9 @@
             </tr>
         <% } %>
     </table>
+   
 </body>
+<footer>
+       <jsp:include page="footer.jsp"/>
+    </footer>
 </html>
