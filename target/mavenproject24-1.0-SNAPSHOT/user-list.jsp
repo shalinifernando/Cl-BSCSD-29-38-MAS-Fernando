@@ -27,7 +27,7 @@
             text-align: center;
             margin: 20px 0;
             font-size: 2.5rem;
-            color: #007BFF; /* Blue color for the heading */
+            color: #293b5f; /* Blue color for the heading */
         }
 
         a {
@@ -66,7 +66,7 @@
         }
 
         th {
-            background-color: #007BFF; /* Blue background for table headers */
+            background-color: #293b5f; /* Blue background for table headers */
             color: white;
         }
 

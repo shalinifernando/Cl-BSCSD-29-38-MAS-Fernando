@@ -302,14 +302,27 @@ p {
 
 <div class="row content">
     <h1 class="sec01">Section 01</h1>
-    <p> VISION -To provide Montgomery County residence and visitors the absolute best in taxi-based transportation service through the creation of transportation networks. With networks in place, we can provide customers with an even further reduced wait time automating dispatch to find the closest Cab. Aside from being able to hail the cab at most metro locations, the app, web, and IVR based phone service plus fully staffed call center with 24 hours a day, seven days a week service, provide customers with access to year-round customer service.</p>
+    <p>  Before Booking:
+Confirm your location: Ensure you provide your accurate pick-up location to avoid confusion and unnecessary waiting time,
+Check estimated fare: Before booking, review the estimated fare based on your destination to understand the expected cost,
+Select the right vehicle type: Choose a car size appropriate for your group size and luggage needs.</p>
     <h1 class="sec02">Section 02</h1>
-    <p>MISSION -Our mission is to exceed our customers' needs by providing professional, courteous, on time ground transportation solutions; to create superior business opportunities for our drivers, and to develop an ideal working environment for our employees.</p>
+    <p> When Booking:
+Use the app or designated booking platform:
+For a smooth experience, book your cab through the company's official app or website,
+Provide clear instructions:
+If you have any special requests (e.g., child seats, assistance with luggage), mention them while booking.</p>
     <h1 class="sec03">Section 03</h1>
-    <p>VALUES -At M C C cabs, we value safety, diversity in people and ideas, and having a team made up of those that have a passion for excellence.</p>
+    <p>During the Ride:
+Be ready when the cab arrives: Have your luggage ready and be prepared to enter the cab promptly once it arrives,
+Communicate clearly with the driver: Advise the driver of the best route to your destination, especially if you have specific preferences,
+Respect the driver's space: Avoid unnecessary distractions while the driver is operating the vehicle.</p>
     <h1 class="sec04">Section 04</h1>
-    <p>Our Mission, Vision, Value statement is more than simply a marketing or business tool it is the philosophy we live by. Our family is part of our business and our business is our family.
-              At  M C C cabs we look forward to making your experience the very best it can be</p>
+    <p>Paying for the Ride:
+Use the preferred payment method:
+Check if the service allows for cash, card, or in-app payments and use the preferred option,
+Verify the fare before paying:
+Ensure the final fare displayed on the app or meter is accurate before settling the payment.</p>
 </div>
     <script>
         // Sticky Header

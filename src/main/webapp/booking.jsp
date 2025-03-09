@@ -83,7 +83,7 @@
         }
 
         input[type="submit"] {
-            background-color: #28a745;
+            background-color:#293b5f;
             color: white;
             padding: 10px;
             border: none;
@@ -122,7 +122,7 @@
         }
 
         th {
-            background-color: #007bff;
+            background-color: #293b5f;
             color: white;
         }
 

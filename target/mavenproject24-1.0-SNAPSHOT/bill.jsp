@@ -79,7 +79,7 @@
         border-radius: 5px;
     }
     input[type="submit"] {
-        background: #28a745;
+        background:#293b5f;
         color: white;
         padding: 10px;
         border: none;
