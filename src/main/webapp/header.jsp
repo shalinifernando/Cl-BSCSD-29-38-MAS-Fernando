@@ -50,7 +50,7 @@ a {
   <nav class="site-navigation">
     <ul class="nav">
           <li>
-                                <a id="catalog" href="dashboard.jsp" class="tab__link">Dashboard</a>
+                                <a id="catalog" href="dashboard1.jsp" class="tab__link"> Analytics Dashboard</a>
                             </li>
        <li>
                                 <a id="catalog" href="booking.jsp" class="tab__link">Add New Customer</a>
@@ -66,6 +66,12 @@ a {
                             </li>
                              <li>
                                 <a href="user-list.jsp" id="pricing" class="tab__link">Driver Info</a>
+                            </li>
+                            <li>
+                                <a href="dashboard.jsp" id="pricing" class="tab__link">User Guidelines</a>
+                            </li>
+                             <li>
+                                <a href="gallery.jsp" id="pricing" class="tab__link">Gallery</a>
                             </li>
                             <li>
                                 <a href="index.jsp" id="pricing" class="tab__link">LogOut</a>

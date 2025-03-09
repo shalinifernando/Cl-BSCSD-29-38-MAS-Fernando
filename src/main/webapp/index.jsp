@@ -11,7 +11,7 @@
     <style>
         /* Body background */
         body {
-            background-image: linear-gradient(120deg, #fccb90 0%, #d57eeb 100%);;
+           background-image: url(https://images.pexels.com/photos/21014/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
             background-repeat: no-repeat;
             background-size: cover;
             height: 100vh;
