@@ -123,6 +123,27 @@ ul {
     height: 100%;
   }
 }
+p1 {
+  font-size: 100px;
+  font-weight: bold;
+  pointer-events: none;
+  user-select: none;
+  color: #293b5f;
+  	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+  font-family: 'DM Sans';
+  margin: 0;
+  
+}
+
+.stretched {
+  display: inline-block;
+  width: max-content;
+  padding: 0 70px;
+  transform: scale(4, 1);
+}
 
   </style>
 </head>
@@ -138,7 +159,11 @@ ul {
     <li></li>
     <li></li>
   </ul>
-   
+      <p1>
+  MC
+  <span class="stretched">C</span>
+   CABS!
+</p1>
 </sectiion>
   <footer>
        <jsp:include page="footer.jsp"/>
