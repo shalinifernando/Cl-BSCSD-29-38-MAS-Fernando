@@ -13,7 +13,7 @@ String password = request.getParameter("password");
 if (username != null && password != null && username.equals(defaultUsername) && password.equals(defaultPassword)) {
     // If authentication succeeds, set the username in session and redirect to dashboard.jsp
     session.setAttribute("username", username);
-    response.sendRedirect("dashboard.jsp");
+    response.sendRedirect("dashboard1.jsp");
 } else {
     // If authentication fails, redirect back to index.jsp with an error parameter
     response.sendRedirect("index.jsp?error=1");

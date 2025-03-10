@@ -17,7 +17,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class UserDAO {
-    private String jdbcURL = "jdbc:mysql://localhost:3306/userdb";
+    private String jdbcURL = "jdbc:mysql://localhost:3306/booking_db";
     private String jdbcUsername = "root";
     private String jdbcPassword = "password";
 

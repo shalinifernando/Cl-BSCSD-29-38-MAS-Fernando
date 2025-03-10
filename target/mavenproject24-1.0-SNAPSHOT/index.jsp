@@ -54,7 +54,7 @@
         /* Button styling */
         .form-login button {
             width: 100%;
-            background-color: rgba(0, 123, 255, 0.8);
+            background-color: #293b5f;
             border: none;
             border-radius: 10px;
             padding: 10px;

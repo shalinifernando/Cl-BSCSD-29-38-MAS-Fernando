@@ -11,7 +11,7 @@ import java.sql.SQLException;
 public class DatabaseConnection {
     private static DatabaseConnection instance;
     private Connection connection;
-    private String url = "jdbc:mysql://localhost:3306/CarDB";
+    private String url = "jdbc:mysql://localhost:3306/booking_db";
     private String username = "root"; // Change as per your DB setup
     private String password = "password";     // Change as per your DB setup
 
