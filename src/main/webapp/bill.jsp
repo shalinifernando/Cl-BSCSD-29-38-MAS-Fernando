@@ -134,6 +134,10 @@
         <hr>
         <h3>Total Amount Payable: Rs<%= totalAmount %></h3>
     <% } %>
+    <br>
+      <br>
+        <br>
+          <br>
  <footer>
        <jsp:include page="footer.jsp"/>
     </footer>
